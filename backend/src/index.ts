@@ -2,9 +2,9 @@ import dotenv from 'dotenv';
 import express, { Request, Response, NextFunction } from 'express';
 // import mongoose from 'mongoose';
 import cors from 'cors';
-import MainRouter from './src/router';
-import ErrorHandler from './src/models/ErrorHandler';
-import { connectDB } from './src/models/index'
+import MainRouter from './router';
+import ErrorHandler from './models/ErrorHandler';
+import { connectDB } from './models/index'
 
 // load the environment variables from the .env file
 dotenv.config({
