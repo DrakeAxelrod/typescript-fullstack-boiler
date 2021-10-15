@@ -10,6 +10,6 @@
     "strict": true,
     "esModuleInterop": true
   },
-    "include": ["./*.ts", "./*.tsx"],
-    "exclude": ["node_modules", "../frontend/tsconfig.json"]
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
 }
