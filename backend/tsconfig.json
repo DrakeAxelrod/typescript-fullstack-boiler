@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+    "include": ["./*.ts", "./*.tsx"],
+    "exclude": ["node_modules", "../frontend/tsconfig.json"]
+}
